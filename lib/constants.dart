@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-var kBackgroundDecoration = BoxDecoration(
+final kBackground = BoxDecoration(
   gradient: LinearGradient(
     begin: Alignment.topCenter,
     end: Alignment.bottomCenter,
@@ -13,12 +13,8 @@ var kBackgroundDecoration = BoxDecoration(
     colors: [
       Colors.deepPurple.shade600,
       Colors.deepPurple.shade700,
+      Colors.deepPurple.shade700,
       Colors.deepPurple.shade800,
-      Colors.deepPurple.shade900,
     ],
   ),
-);
-
-var kTextFieldHintStyle = TextStyle(
-  color: Colors.grey.shade400,
 );
