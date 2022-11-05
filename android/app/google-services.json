@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "790961819225",
+    "project_id": "artful-fastness-364209",
+    "storage_bucket": "artful-fastness-364209.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790961819225:android:a407cb9fb255d715ef6b48",
+        "android_client_info": {
+          "package_name": "com.akdeveloper.tutorials_wallah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790961819225-g4m9vn5cf142fo05p6v6qavrf812m831.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx4r3ujU26BRoATJn_tOvmT_oFByeYzTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790961819225-g4m9vn5cf142fo05p6v6qavrf812m831.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

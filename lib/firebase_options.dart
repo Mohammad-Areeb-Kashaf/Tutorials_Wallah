@@ -25,10 +25,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -47,30 +44,40 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCAAQBLaO-JjYRLxupopNZTFBCYsgg2a3w',
-    appId: '1:760981735982:web:9b414cf32d477a4a4dadbf',
-    messagingSenderId: '760981735982',
-    projectId: 'tutorials-wallah',
-    authDomain: 'tutorials-wallah.firebaseapp.com',
-    storageBucket: 'tutorials-wallah.appspot.com',
-    measurementId: 'G-BW9P49M1KD',
+    apiKey: 'AIzaSyAHgM-WNAJahnAXj0HS_awOEB3k1GUk41o',
+    appId: '1:790961819225:web:b884d7e289e2a2dfef6b48',
+    messagingSenderId: '790961819225',
+    projectId: 'artful-fastness-364209',
+    authDomain: 'artful-fastness-364209.firebaseapp.com',
+    storageBucket: 'artful-fastness-364209.appspot.com',
+    measurementId: 'G-MPZ31C4N15',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCt6KM8RWVStAFgUH6qJHYBxvSJ7AKb41Y',
-    appId: '1:760981735982:android:e42e22f410ca0f744dadbf',
-    messagingSenderId: '760981735982',
-    projectId: 'tutorials-wallah',
-    storageBucket: 'tutorials-wallah.appspot.com',
+    apiKey: 'AIzaSyBx4r3ujU26BRoATJn_tOvmT_oFByeYzTM',
+    appId: '1:790961819225:android:a407cb9fb255d715ef6b48',
+    messagingSenderId: '790961819225',
+    projectId: 'artful-fastness-364209',
+    storageBucket: 'artful-fastness-364209.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCTkSNRb5L0uIm-Tu6FbhxdlXZquc2mrTE',
-    appId: '1:760981735982:ios:f2a56197768ee1174dadbf',
-    messagingSenderId: '760981735982',
-    projectId: 'tutorials-wallah',
-    storageBucket: 'tutorials-wallah.appspot.com',
-    iosClientId: '760981735982-6aeth3o4brtq6ges5m0bnmqs84mtfno5.apps.googleusercontent.com',
-    iosBundleId: 'com.akdeveloperz.tutorialsWallah',
+    apiKey: 'AIzaSyBWSLGX_rgt301m9NV31hC1IlLCFd2WZk8',
+    appId: '1:790961819225:ios:2e03f253f42f6e40ef6b48',
+    messagingSenderId: '790961819225',
+    projectId: 'artful-fastness-364209',
+    storageBucket: 'artful-fastness-364209.appspot.com',
+    iosClientId: '790961819225-2jq4uop65h7algfa2lrep2p9q5ooqe94.apps.googleusercontent.com',
+    iosBundleId: 'com.akdeveloper.tutorialsWallah',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyBWSLGX_rgt301m9NV31hC1IlLCFd2WZk8',
+    appId: '1:790961819225:ios:2e03f253f42f6e40ef6b48',
+    messagingSenderId: '790961819225',
+    projectId: 'artful-fastness-364209',
+    storageBucket: 'artful-fastness-364209.appspot.com',
+    iosClientId: '790961819225-2jq4uop65h7algfa2lrep2p9q5ooqe94.apps.googleusercontent.com',
+    iosBundleId: 'com.akdeveloper.tutorialsWallah',
   );
 }
