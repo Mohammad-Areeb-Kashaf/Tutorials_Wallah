@@ -2,22 +2,10 @@ import 'package:flutter/material.dart';
 
 class Constants {
   static BoxDecoration kBackground = BoxDecoration(
-    gradient: LinearGradient(
-      begin: Alignment.topCenter,
-      end: Alignment.bottomCenter,
-      stops: [
-        0.1,
-        0.3,
-        0.6,
-        0.9,
-      ],
-      colors: [
-        Colors.deepPurple.shade600,
-        Colors.deepPurple.shade700,
-        Colors.deepPurple.shade700,
-        Colors.deepPurple.shade800,
-      ],
-    ),
-  );
+      gradient: LinearGradient(
+    colors: [Color(0xff3f51b5), Color(0xff6539b3)],
+    begin: Alignment.bottomCenter,
+    end: Alignment.topCenter,
+  ));
   static String API_KEY = 'AIzaSyAHUuUvdMplrWLILnQM8ilD7-GD4jJWEYs';
 }
