@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "790961819225-klnsga6ob6u881rhjncfiftadildsn20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akdeveloper.tutorials_wallah",
+            "certificate_hash": "fcea3cea99b819b83e17da66373c0e7d76af2022"
+          }
+        },
+        {
           "client_id": "790961819225-g4m9vn5cf142fo05p6v6qavrf812m831.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,6 +37,13 @@
             {
               "client_id": "790961819225-g4m9vn5cf142fo05p6v6qavrf812m831.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "790961819225-2jq4uop65h7algfa2lrep2p9q5ooqe94.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.akdeveloper.tutorialsWallah"
+              }
             }
           ]
         }

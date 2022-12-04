@@ -67,6 +67,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '790961819225',
     projectId: 'artful-fastness-364209',
     storageBucket: 'artful-fastness-364209.appspot.com',
+    androidClientId: '790961819225-klnsga6ob6u881rhjncfiftadildsn20.apps.googleusercontent.com',
     iosClientId: '790961819225-2jq4uop65h7algfa2lrep2p9q5ooqe94.apps.googleusercontent.com',
     iosBundleId: 'com.akdeveloper.tutorialsWallah',
   );
@@ -77,6 +78,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '790961819225',
     projectId: 'artful-fastness-364209',
     storageBucket: 'artful-fastness-364209.appspot.com',
+    androidClientId: '790961819225-klnsga6ob6u881rhjncfiftadildsn20.apps.googleusercontent.com',
     iosClientId: '790961819225-2jq4uop65h7algfa2lrep2p9q5ooqe94.apps.googleusercontent.com',
     iosBundleId: 'com.akdeveloper.tutorialsWallah',
   );
